@@ -1,0 +1,12 @@
+[03-Apr-2011 14:08:05] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/default_level_query.php on line 10
+[03-Apr-2011 14:57:40] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/default_level_query.php on line 12
+[03-Apr-2011 15:00:57] PHP Warning:  Invalid argument supplied for foreach() in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/default_level_query.php on line 12
+[03-Apr-2011 15:01:15] PHP Warning:  Invalid argument supplied for foreach() in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/default_level_query.php on line 12
+[03-Apr-2011 15:01:54] PHP Fatal error:  Call to undefined function fetch_lengths() in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/default_level_query.php on line 12
+[03-Apr-2011 15:07:26] PHP Fatal error:  Call to undefined method mysqli::fetch_lengths() in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/default_level_query.php on line 13
+[04-Apr-2011 02:04:08] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/submit_score.php on line 14
+[04-Apr-2011 02:04:59] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/submit_score.php on line 14
+[04-Apr-2011 02:32:28] PHP Parse error:  syntax error, unexpected T_STRING in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/friend_xml_query.php on line 17
+[04-Apr-2011 02:34:37] PHP Parse error:  syntax error, unexpected T_STRING in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/friend_xml_query.php on line 18
+[04-Apr-2011 02:34:40] PHP Parse error:  syntax error, unexpected T_STRING in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/friend_xml_query.php on line 18
+[04-Apr-2011 02:37:06] PHP Parse error:  syntax error, unexpected T_STRING in /home2/gametwol/public_html/bots/drupal-6.2/scripts/bots/friend_xml_query.php on line 17

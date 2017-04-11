@@ -1,0 +1,16 @@
+<author>Aaron</author>
+<name>Plumber</name>
+<description>A level to test the XML loader</description>
+<version2></version2>
+
+<colls>
+	<coll x="8" z="8" build="1,1,1,1,0,0,0,1" />
+	<coll x="7" z="8" build="1,1,1,1,0,0,0,1" />
+	<coll x="8" z="7" build="1,1,1,1,0,0,0,1" />
+	<coll x="7" z="7" build="1,1,1,1,0,0,0,1" />
+</colls>
+
+<items>
+	<bot x="7" y="4" z="7" angle="0" />
+	<bot x="8" y="4" z="8" angle="3" />
+</items>

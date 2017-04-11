@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9CD4A5D0-D549-587E-95B6-3CC0E78D6E2A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BackToTitleScreen.js" />
+     <Compile Include="Assets\OldBOTSScripts\BOTS_Global\GLOBAL ENUMS.js" />
+     <Compile Include="Assets\OldBOTSScripts\BOTS_Global\GLOBALS.js" />
+     <Compile Include="Assets\OldBOTSScripts\BOTS_Global\MouseInput.js" />
+     <Compile Include="Assets\OldBOTSScripts\BOTS_Global\Point.js" />
+     <Compile Include="Assets\OldBOTSScripts\BOTS_Global\Point3D.js" />
+     <Compile Include="Assets\OldBOTSScripts\BOTS_Global\SocialService.js" />
+     <Compile Include="Assets\OldBOTSScripts\BOTS_Global\TextSanitizer.js" />
+     <Compile Include="Assets\OldBOTSScripts\DragRigidbody.js" />
+     <Compile Include="Assets\OldBOTSScripts\FPSWalker.js" />
+     <Compile Include="Assets\OldBOTSScripts\GameWorld\CreateLevel.js" />
+     <Compile Include="Assets\OldBOTSScripts\GameWorld\EndLevel.js" />
+     <Compile Include="Assets\OldBOTSScripts\GameWorld\LevelLoaderBox.js" />
+     <Compile Include="Assets\OldBOTSScripts\GameWorld\MouseOrbit2.js" />
+     <Compile Include="Assets\OldBOTSScripts\GameWorld\MovableObj.js" />
+     <Compile Include="Assets\OldBOTSScripts\GameWorld\Robot.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Button.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Cateloge.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Component.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\GLOBAL.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\GUI.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Game.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Information.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Level.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\List.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Menu.js" />
+     <Compile Include="Assets\OldBOTSScripts\Global\Pane.js" />
+     <Compile Include="Assets\OldBOTSScripts\LevelEditor\LevelEditorGUI.js" />
+     <Compile Include="Assets\OldBOTSScripts\LevelEditor\LevelItemData.js" />
+     <Compile Include="Assets\OldBOTSScripts\MainMenuGUI\AdminSettings.js" />
+     <Compile Include="Assets\OldBOTSScripts\MainMenuGUI\GameMode.js" />
+     <Compile Include="Assets\OldBOTSScripts\MainMenuGUI\MainMenu.js" />
+     <Compile Include="Assets\OldBOTSScripts\MainMenuGUI\StoryMode.js" />
+     <Compile Include="Assets\OldBOTSScripts\MainMenuGUI\TutorialMode.js" />
+     <Compile Include="Assets\OldBOTSScripts\Minimap.js" />
+     <Compile Include="Assets\OldBOTSScripts\MouseOrbitOld.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\ButtonSource.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\Content.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\DraggableButton.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\Grid.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\Instruction.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\InstructionPointer.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\LoopSpace.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\MiniMap.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\OperatorSpace.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\ProgramGUI.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\Scope.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\TutorialInstructions.js" />
+     <Compile Include="Assets\OldBOTSScripts\ProgramGUI\Workspace.js" />
+     <Compile Include="Assets\OldBOTSScripts\SmoothFollowBot.js" />
+     <Compile Include="Assets\OldBOTSScripts\Solver\LevelSolver.js" />
+     <Compile Include="Assets\OldBOTSScripts\Solver\PriorityQueue.js" />
+     <Compile Include="Assets\OldBOTSScripts\Solver\SolutionState.js" />
+     <Compile Include="Assets\OldBOTSScripts\Solver\Thing.js" />
+     <Compile Include="Assets\OldBOTSScripts\Solver\ThingManager.js" />
+     <Compile Include="Assets\OldBOTSScripts\StarRating.js" />
+     <Compile Include="Assets\OldBOTSScripts\StartLevel.js" />
+     <Compile Include="Assets\OldBOTSScripts\TextControl.js" />
+     <Compile Include="Assets\OldBOTSScripts\TimedObjectDestructor.js" />
+     <Compile Include="Assets\OldBOTSScripts\WindowMaker.js" />
+     <Compile Include="Assets\OldBOTSScripts\WindowWrapper.js" />
+     <Compile Include="Assets\OldBOTSScripts\XML Parser\XMLNode.js" />
+     <Compile Include="Assets\OldBOTSScripts\XML Parser\XMLNodeList.js" />
+     <Compile Include="Assets\OldBOTSScripts\XML Parser\XMLParser.js" />
+     <Compile Include="Assets\OldScripts\oldCodeElementSource.js" />
+     <Compile Include="Assets\OldScripts\oldCodeElements.js" />
+     <Compile Include="Assets\OldScripts\oldGUIManager.js" />
+     <Compile Include="Assets\Squampus.js" />
+     <Compile Include="Assets\_Minimap.js" />
+     <Compile Include="Assets\_Scripts\Billboard.js" />
+     <Compile Include="Assets\_Scripts\Bot.js" />
+     <Compile Include="Assets\_Scripts\BotDebugger.js" />
+     <Compile Include="Assets\_Scripts\BotHatMaterial.js" />
+     <Compile Include="Assets\_Scripts\BuildingBlock.js" />
+     <Compile Include="Assets\_Scripts\CodeElements.js" />
+     <Compile Include="Assets\_Scripts\DataManager.js" />
+     <Compile Include="Assets\_Scripts\EditorButton.js" />
+     <Compile Include="Assets\_Scripts\EditorGUIManager.js" />
+     <Compile Include="Assets\_Scripts\EditorList.js" />
+     <Compile Include="Assets\_Scripts\EditorManager.js" />
+     <Compile Include="Assets\_Scripts\FreePlayMenu.js" />
+     <Compile Include="Assets\_Scripts\GUIManager.js" />
+     <Compile Include="Assets\_Scripts\ListElementData.js" />
+     <Compile Include="Assets\_Scripts\MouseTimer.js" />
+     <Compile Include="Assets\_Scripts\MovableObject.js" />
+     <Compile Include="Assets\_Scripts\PathDrawing\BotCompass.js" />
+     <Compile Include="Assets\_Scripts\PathDrawing\PathDataBean.js" />
+     <Compile Include="Assets\_Scripts\PathDrawing\PathDrawer.js" />
+     <Compile Include="Assets\_Scripts\PathDrawing\PathDrawer_Copy.js" />
+     <Compile Include="Assets\_Scripts\PathDrawing\PathReader.js" />
+     <Compile Include="Assets\_Scripts\PathDrawing\PathReader_CopyToMessWith.js" />
+     <Compile Include="Assets\_Scripts\PopUpManager.js" />
+     <Compile Include="Assets\_Scripts\PopulateScrollList.js" />
+     <Compile Include="Assets\_Scripts\ProgramPointer.js" />
+     <Compile Include="Assets\_Scripts\TextureScroller.js" />
+     <Compile Include="Assets\_Scripts\Variables.js" />
+     <Compile Include="Assets\_Scripts\WorldCamera.js" />
+     <Compile Include="Assets\_Scripts\WorldManager.js" />
+     <Compile Include="Assets\_Scripts\WorldTimer.js" />
+     <None Include="Assets\LevelXML\BOTS-Level1.xml" />
+     <None Include="Assets\Resources\Block GUI\tutorial.xml" />
+     <None Include="Assets\LevelXML\BOTS-Level4.xml" />
+     <None Include="Assets\Standard Assets\outlined_diffuse.shader" />
+     <None Include="Assets\LevelXML\BOTS-Level10.xml" />
+     <None Include="Assets\LevelXML\BOTS-Level9.xml" />
+     <None Include="Assets\_Worlds\OldNewWorld.xml" />
+     <None Include="Assets\Resources\Prog GUI\tutorial.xml" />
+     <None Include="Assets\LevelXML\BOTS-Level7.xml" />
+     <None Include="Assets\LevelXML\BOTS-Level6.xml" />
+     <None Include="Assets\LevelXML\BOTS-Level8.xml" />
+     <None Include="Assets\LevelXML\BOTS-Level2.xml" />
+     <None Include="Assets\Standard Assets\Sounds\ReadMe.txt" />
+     <None Include="Assets\self_illuminated_outlined_diffuse_113.shader" />
+     <None Include="Assets\Resources\config.xml" />
+     <None Include="Assets\_Worlds\TestWorld.xml" />
+     <None Include="Assets\LevelXML\BOTS-Level5.xml" />
+     <None Include="Assets\_ScriptInspector\readme.txt" />
+     <None Include="Assets\LevelXML\BOTS-Level3.xml" />
+     <None Include="Assets\_Worlds\NewWorld.xml" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{8385EC1D-10C7-5D3E-80D4-B7A8AD885002}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{2C8BEE15-C131-65B8-23B5-A0449DB05245}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

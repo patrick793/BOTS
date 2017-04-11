@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 724e59b2cf58cff4c950eccff33735a8
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - levelBox: {instanceID: 0}
+  - switchPrefab: {instanceID: 0}
+  - keyPrefab: {instanceID: 0}
+  - myRobot: {instanceID: 0}
+  - m: {instanceID: 0}
+  - red: {fileID: 2100000, guid: 031c567363af90940992474e65d57076, type: 2}
+  - orange: {fileID: 2100000, guid: 35d957f37632fd84ab3eb2d2f0598825, type: 2}
+  - yellow: {fileID: 2100000, guid: 2267e50ec61495f40a021da18ed8dc4b, type: 2}
+  - green: {fileID: 2100000, guid: 4f608f3c4b6436641b20db2ccfb43ae0, type: 2}
+  - blue: {fileID: 2100000, guid: 2f169f14182ed9a4fba718a3001e0fe7, type: 2}
+  - purple: {fileID: 2100000, guid: ea5127b51e80dce4f9fc197d20b0c691, type: 2}
+  - space: {fileID: 2100000, guid: 19acaf192ff1dff4c8ef64ed12902e15, type: 2}
+  - planet1: {fileID: 2100000, guid: b3cb273ab301faa4eac780e6967b6c7e, type: 2}
+  - planet2: {fileID: 2100000, guid: ef18ecd5b8a85074fb0d73c948de8cd1, type: 2}
+  - star: {fileID: 2100000, guid: c086f557672028347b8791b0f97e9ad4, type: 2}
+  - water: {fileID: 2100000, guid: dee44a0e913b8a243b607f91d45b7979, type: 2}
+  - fish: {fileID: 2100000, guid: 646dd5b21b93d474f81abd120bb57837, type: 2}
+  - turtle: {fileID: 2100000, guid: db56b58f3f02fcf438bf224a40e626c5, type: 2}
+  - jellyfish: {fileID: 2100000, guid: 5b01a1f50f620db4785b4dca126039f2, type: 2}
+  - fall: {fileID: 2100000, guid: 2b945acb247a7c6429ab9dbef6a64d25, type: 2}
+  - winter: {fileID: 2100000, guid: ce6923855eec4134bab0001685975a2f, type: 2}
+  - spring: {fileID: 2100000, guid: 2e72cb91b3138434792773eff8b92efe, type: 2}
+  - summer: {fileID: 2100000, guid: 3beb00d767462174fb75a932b3732add, type: 2}
+  - dflt: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}

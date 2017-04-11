@@ -1,0 +1,8 @@
+<tutorialtext>
+	<page id="1">Welcome to the Level Editor! Here, you can create new levels for other players to solve, by using these building blocks!</page>
+	<page id="2"><rect x="2" y="136" w="274" h="630"/>Along the left side of the screen, you'll see all the building blocks you can use to make a level. You're allowed to use up to 20 building blocks to make your level. The icon for each block shows what the robot will build.</page>
+	<page id="3"><rect x="2" y="136" w="274" h="630"/>The level can only be 10 squares long and 8 squares high. Also, you can't put anything that would block off your own path.</page>
+	<page id="4"><rect x="165" y="140" w="37" h="32"/>If a building block is greyed out, you can't use it right now.</page>
+	<page id="5"><rect x="206" y="140" w="37" h="32"/>When you're done making the level, click save and type in a name for it!.</page>
+	<page id="6"><rect x="330" y="180" w="80" h="35"/>That's it for now! Have fun!</page>
+</tutorialtext> 

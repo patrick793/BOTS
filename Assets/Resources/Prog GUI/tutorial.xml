@@ -1,0 +1,9 @@
+<tutorialtext>
+	<page id="1">Welcome to the Level Editor! Here, you can create new levels for other players to solve, by programming your robot!</page>
+	<page id="2"><rect x="2" y="136" w="274" h="630"/>Just like in the main game, you can put instructions in the bot's program by dragging them over here, or double-clicking them. You can use up to 25 commands.</page>
+	<page id="3"><rect x="330" y="180" w="80" h="35"/>When the robot runs commands, the level will be created for you! If you Move Forward, blocks will appear. If you try to Pick Up, a new box will appear for you.</page>
+	<page id="4"><rect x="110" y="15" w="60" h="60"/>After you've written your program, hit Play and watch the level being built.</page>
+	<page id="5"><rect x="47" y="15" w="60" h="60"/>The level can only be 10 blocks wide and 8 blocks tall. If Fire Bot can't do something you told him to do, he will stop and tell you what's wrong. Hit the Reset button, fix the problem, then hit Play again.</page>
+	<page id="6"><rect x="974" y="190" w="36" h="36"/>Whenever you're finished, you can either save the level as is, or review it to make more changes.</page>
+	<page id="7"><rect x="303" y="13" w="184" h="44"/>Have fun!</page>
+</tutorialtext> 

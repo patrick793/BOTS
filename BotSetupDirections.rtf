@@ -1,0 +1,190 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red41\green52\blue65;}
+\margl1440\margr1440\vieww18500\viewh22520\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\fs26 \cf2 On Wed, Sep 21, 2011 at 6:34 PM, Drew Hicks \uc0\u8234 <{\field{\*\fldinst{HYPERLINK "mailto:AHicks37@uncc.edu"}}{\fldrslt \ul \ulc3 AHicks37@uncc.edu}}>\uc0\u8236  wrote:\
+GUISkin\
+- Attach TektonPro to the Font attribute\
+- Go to Custom Styles\
+- Each custom style will need three textures: normal, hover, and active\
+- Using the search bar makes it easy to find these textures\
+\
+Helpbutton needs:\
+Pink Circle\
+Circle Hover\
+Circle Active\
+\
+Gobutton needs:\
+Green circle\
+circle hover\
+circle active\
+\
+Stopbutton needs:\
+red circle\
+circle hover\
+circle active\
+\
+trashbutton needs:\
+trashcan\
+trashcan active\
+trashcan active\
+\
+actions needs:\
+pink sheet\
+(no hover or active)\
+\
+functions needs:\
+purple sheet\
+(no hover or active)\
+\
+variables needs:\
+light blue sheet\
+(no hover or active)\
+\
+controls needs:\
+turquoise sheet\
+(no hover or active)\
+\
+operators needs:\
+lime green sheet\
+\pard\pardeftab720\ql\qnatural
+
+\fs24 \cf2 - Hide quoted text -
+\fs26 \
+(no hover or active)\
+\
+workspace needs:\
+bo\
+(no hover or active)\
+\
+moreInfo needs:\
+showMoreInfo\
+(no h or a)\
+\
+showFunction needs:\
+showFunction\
+\
+showVariable needs:\
+showVariable\
+\
+showLoop needs:\
+showLoop\
+\
+showOperator needs:\
+showOperator\
+\
+locked needs:\
+piece hover (as its normal texture)\
+\
+leftslider needs:\
+left_bracket\
+\
+rightslider needs:\
+right_bracket\
+\
+rightslider_a needs:\
+right_bracket_a\
+\
+deactivated requires!\
+circle_deactivated\
+\
+PiecesSkin requires:\
+in Font: TektonPro\
+in Box: squareSocket\
+in Button: piece, piece_hover, piece_active\
+in Label: screws (for both normal and hover)\
+\
+in custom styles\
+Locked: piece_hover\
+greenSquare: GreenButton, piece_hover, piece_active\
+blueCircle: blueCircle, blueCircleHover, circle_active\
+pinkSquare: PinkButton, piece_hover, piece_active\
+greenTriangle: TriangleButton, TriangleButtonHover, TriangleButtonHover\
+leftlider: left_bracket\
+rightslider: right_bracket\
+rightslider_a: right_bracket_a\
+circleSocket: circleSocket\
+triangleSocket: triangleSocket\
+triangleScrews: TriangleScrews\
+\
+------------------------------------------------------------------------------------------------------------------\
+\
+In the scene Level1:\
+\pard\pardeftab720\ql\qnatural
+\cf0 \
+Go to the LevelBox prefab and assure that the scripts "LevelLoaderBox" and "LevelItemData" are attached and that the box material is attached\
+\
+attach the Robot script to the Robot\
+	robotmodel should be CuteBotFBX (you may have to modify his scale to make him larger. the value should be .5)\
+	attach Main_Level to In Level\
+	CuteBotFBX model has animations\
+		idle\
+		walking\
+		pickup\
+		boxwalk\
+		error\
+		turnleft\
+		jump\
+		turnright\
+\
+attach the CreateLevel script to Main_Level\
+	attach the EndLvl object to Switch prefab\
+	attach the PickUp object to Key prefab\
+	attach the LevelBox prefab to level box\
+	attach appropriate materials (generally the same name as variable)\
+	attach BoxMaterial to M and Dflt\
+\pard\pardeftab720\ql\qnatural
+\cf2 \
+attach MouseOrbit2 to the MMCamera\
+	attach BirdsEyeView to MouseOrbit2  \
+\
+\
+------------------------------------------------------------------------------------------------------------------\
+\
+In the scene BugBots:\
+the script attached to MainCamera should be ProgramGUI\
+\
+then, in the script ProgramGUI, there is a commented section which assigns a lot of textures. Comment it out, or redo the assignments in the inspector\
+(this method of assigning textures does not work in the WebPlayer)\
+then, in the ProgramGUI attached to MainCamera:\
+WinSound : win\
+ErrorSound : error\
+MySkin : GUISkin\
+PiecesSkin : PiecesSkin\
+\
+\
+\
+------------------------------------------------------------------------------------------------------------------\
+\
+Go to the Start scene\
+make sure that the StartGame script is attached to the camera\
+attach the textures:\
+FriendsLevels, MyLevels, HighScores, Messages, New, Store, Play, message Screen\
+\
+attach the font:\
+Chalkboard\
+-------------------------------------------------------------------------------------------------------------------\
+\
+In the scene LevelEditor \
+attach level editor GUI to Main Camera\
+attach box to Target\
+attach EndLvl to End Location\
+attach CuteBot to Start Location\
+attach PickUp to PickUp\
+\
+attach polysurface1 (CuteBotFBX) to P1Mesh\
+attach levelBox(levelloaderbox) to Cube_prefab\
+attach Main Camera (from scene) to My_camera\
+\pard\pardeftab720\ql\qnatural
+\cf0 	attach appropriate materials (generally the same name as variable)\
+	attach BoxMaterial to M and Dflt\cf2 \
+\
+\
+\
+\
+\
+\
+}

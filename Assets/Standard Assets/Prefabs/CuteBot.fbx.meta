@@ -1,0 +1,102 @@
+fileFormatVersion: 2
+guid: 5f48373ffda79174a9f0bf41b54b4bfc
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube5
+    100004: pCube2
+    100006: group2
+    100008: polySurface1
+    100010: pCube4
+    100012: group4
+    100014: pCube3
+    100016: group3
+    100018: pCube6
+    100020: pCube7
+    100022: group1
+    400000: //RootNode
+    400002: pCube5
+    400004: pCube2
+    400006: group2
+    400008: polySurface1
+    400010: pCube4
+    400012: group4
+    400014: pCube3
+    400016: group3
+    400018: pCube6
+    400020: pCube7
+    400022: group1
+    2300000: pCube5
+    2300002: pCube2
+    2300004: polySurface1
+    2300006: pCube4
+    2300008: pCube3
+    2300010: pCube6
+    2300012: pCube7
+    3300000: pCube5
+    3300002: pCube2
+    3300004: polySurface1
+    3300006: pCube4
+    3300008: pCube3
+    3300010: pCube6
+    3300012: pCube7
+    4300000: pCube5
+    4300002: pCube7
+    4300004: pCube6
+    4300006: pCube3
+    4300008: pCube4
+    4300010: pCube2
+    4300012: polySurface1
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

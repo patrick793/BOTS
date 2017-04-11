@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: d5b5730f89ab859448cc7933ffe2930b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - target: {instanceID: 0}
+  - dragModel: {instanceID: 0}
+  - endLocation: {instanceID: 0}
+  - startLocation: {instanceID: 0}
+  - BlueSwitch: {instanceID: 0}
+  - RedSwitch: {instanceID: 0}
+  - pickUp: {instanceID: 0}
+  - heavyBox: {instanceID: 0}
+  - p1Mesh: {instanceID: 0}
+  - cube_prefab: {instanceID: 0}
+  - my_camera: {instanceID: 0}
+  - Bot: {fileID: 2800000, guid: 5eae361e17f2d1646b68cdbf14c6db66, type: 3}
+  - End: {fileID: 2800000, guid: 1222c0716f8ab824ba63ab611b20beeb, type: 3}
+  - Heavy: {fileID: 2800000, guid: 37a887a08dfd6254cba56f51c75bdbd0, type: 3}
+  - crate: {fileID: 2800000, guid: f970150943b7b9943846b8773dfd383c, type: 3}
+  - Spawner: {fileID: 2800000, guid: 86e41cdf094bc544d83905b0a6363c8f, type: 3}
+  - Producer: {fileID: 2800000, guid: 4097b41397a20014f94492b4e6837228, type: 3}
+  - m: {instanceID: 0}
+  - red: {instanceID: 0}
+  - orange: {instanceID: 0}
+  - yellow: {instanceID: 0}
+  - green: {instanceID: 0}
+  - blue: {instanceID: 0}
+  - purple: {instanceID: 0}
+  - space: {instanceID: 0}
+  - planet1: {instanceID: 0}
+  - planet2: {instanceID: 0}
+  - star: {instanceID: 0}
+  - water: {instanceID: 0}
+  - fish: {instanceID: 0}
+  - turtle: {instanceID: 0}
+  - jellyfish: {instanceID: 0}
+  - fall: {instanceID: 0}
+  - winter: {instanceID: 0}
+  - spring: {instanceID: 0}
+  - summer: {instanceID: 0}
+  - dflt: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

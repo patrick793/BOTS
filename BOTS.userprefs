@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/DataManager.js">
+    <Files>
+      <File FileName="Assets/_Scripts/DataManager.js" Line="208" Column="18" />
+      <File FileName="Assets/_Scripts/Bot.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/GUIManager.js" Line="1" Column="1" />
+      <File FileName="Assets/OldBOTSScripts/TextControl.js" Line="50" Column="5" />
+      <File FileName="Assets/Resources/config.xml" Line="1" Column="1" />
+      <File FileName="Assets/OldBOTSScripts/XML Parser/XMLNode.js" Line="1" Column="1" />
+      <File FileName="Assets/OldBOTSScripts/XML Parser/XMLParser.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/FreePlayMenu.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/WorldManager.js" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/PopulateScrollList.js" Line="1" Column="1" />
+      <File FileName="Assets/OldBOTSScripts/StartLevel.js" Line="1" Column="1" />
+      <File FileName="Assets/OldBOTSScripts/MainMenuGUI/TutorialMode.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

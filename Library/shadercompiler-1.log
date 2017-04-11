@@ -1,0 +1,31 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-1--1599008300
+Cmd: getPlatforms
+Cmd: preprocess
+  error: 1 plat 12 at (570): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=2494 outsize=2245 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4305 outsize=919 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4305 outsize=378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2281 outsize=817 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2281 outsize=561 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1809 outsize=457 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1809 outsize=159 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4022 outsize=905 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4022 outsize=350 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1262 outsize=603 kw= ok=1
+Cmd: preprocess
+  insize=623 outsize=623 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (32): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=2557 outsize=1334 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1509 outsize=603 kw= ok=1

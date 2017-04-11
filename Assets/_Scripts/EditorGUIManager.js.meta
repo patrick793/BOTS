@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6032133f0a45243b6a74dfd8766f3ce3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - dm: {instanceID: 0}
+  - scrollSkin: {instanceID: 0}
+  - prevIcon: {fileID: 2800000, guid: 10f44c4e035d84b7fadafe075bb8ed13, type: 3}
+  - nextIcon: {fileID: 2800000, guid: 44b08c225cf934e3face589a1ba6bb1e, type: 3}
+  - editor: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,129 @@
+//getting username from drupal
+
+<?php
+  
+  global $user;
+
+  print_r($user->name);
+
+?>
+
+
+//query to get default puzzles
+
+<?php
+
+  include('config.php');
+  include('connect.php');
+
+  $dbserver = "localhost";
+  $dbname = "gametwol_bots";
+  $dbuser = "gametwol_bots";
+  $dbpassword = "Bq62fA~6PRIG";
+
+  $db = new mysqli();
+  $db->connect($dbserver, $dbuser, $dbpassword, $dbname);
+
+  if (mysqli_connect_error()) {
+	  echo "Failure $db->error<br />";	
+  }
+
+  $puzzleQuery = "SELECT user, puzzle FROM 'Levels' WHERE user='BOTS'";
+  $result = $db->query($puzzleQuery);
+
+?>
+
+
+//query to get friend puzzles
+
+<?php
+
+  $dbserver = "localhost";
+  $dbname = "gametwol_bots";
+  $dbuser = "gametwol_bots";
+  $dbpassword = "Bq62fA~6PRIG";
+
+  $db = new mysqli();
+  $db->connect($dbserver, $dbuser, $dbpassword, $dbname);
+
+  if (mysqli_connect_error()) {
+	  echo "Failure $db->error<br />";	
+  }
+
+  $puzzleQuery = "SELECT user, puzzle FROM 'Levels' WHERE user= (SELECT friendname FROM 'Friends' WHERE username = $user AND getLevels = 1)";
+  $result = $db->query($puzzleQuery);
+
+?>
+
+
+//query to get messages
+
+<?php
+
+  $dbserver = "localhost";
+  $dbname = "gametwol_bots";
+  $dbuser = "gametwol_bots";
+  $dbpassword = "Bq62fA~6PRIG";
+
+  $db = new mysqli();
+  $db->connect($dbserver, $dbuser, $dbpassword, $dbname);
+
+  if (mysqli_connect_error()) {
+	  echo "Failure $db->error<br />";	
+  }
+
+  $puzzleQuery = "SELECT username, sender, message FROM 'Message' WHERE view = 1 AND username = '$user'";
+  $result = $db->query($puzzleQuery);
+
+?>
+
+
+
+
+
+//query to get friends list
+
+<?php
+
+  $dbserver = "localhost";
+  $dbname = "gametwol_bots";
+  $dbuser = "gametwol_bots";
+  $dbpassword = "Bq62fA~6PRIG";
+
+  $db = new mysqli();
+  $db->connect($dbserver, $dbuser, $dbpassword, $dbname);
+
+  if (mysqli_connect_error()) {
+	  echo "Failure $db->error<br />";	
+  }
+
+  $puzzleQuery = "SELECT friendname FROM 'Friends' WHERE username = '$user'";
+  $result = $db->query($puzzleQuery);
+
+?>
+
+
+
+
+//query to get scores
+
+
+<?php
+
+  $dbserver = "localhost";
+  $dbname = "gametwol_bots";
+  $dbuser = "gametwol_bots";
+  $dbpassword = "Bq62fA~6PRIG";
+
+  $db = new mysqli();
+  $db->connect($dbserver, $dbuser, $dbpassword, $dbname);
+
+  if (mysqli_connect_error()) {
+	  echo "Failure $db->error<br />";	
+  }
+
+  $puzzleQuery = "SELECT username, puzzle, score FROM 'Score' WHERE username = '$user'";
+  $result = $db->query($puzzleQuery);
+
+?>
+

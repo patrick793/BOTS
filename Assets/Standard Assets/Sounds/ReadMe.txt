@@ -1,0 +1,1 @@
+All sounds are Creative Commons obtained from http://www.freesound.org/
